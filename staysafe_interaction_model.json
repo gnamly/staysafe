@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "stay safe",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "InzidenzIntent",
+          "slots": [],
+          "samples": [
+            "Wie hoch sind die Inzidenz Zahlen",
+            "Wie hoch ist die Inzidenz"
+          ]
+        },
+        {
+          "name": "TestIntent",
+          "slots": [],
+          "samples": [
+            "Wo ist eine Teststation in meiner Nähe",
+            "Wo ist eine Teststation",
+            "Finde eine Teststation",
+            "Wo finde ich eine Teststation"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
